@@ -44,9 +44,7 @@ Time spent: 10 hours spent in total
   <img src="UnauthenticatedStoredXSS.gif" width="800">
   
   - [x] Steps to recreate: 
-  1. Post a comment with the javascript "<a title='x onmouseover=alert(unescape(/hello%20world/.source))
-style=position:absolute;left:0;top:0;width:5000px;height:5000px
- AAAAAAAAAAAA [64 kb] ...'></a>"
+  1. Post a comment with the javascript found at this [link](https://wpvulndb.com/vulnerabilities/8186)
   2. Replace the AAAAAA with 64 kb of text
   3. Mouseover the comment
   - [x] Affected source code:
