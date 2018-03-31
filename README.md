@@ -41,7 +41,7 @@ Time spent: 10 hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.1
   - [x] GIF Walkthrough: 
-  <img src="UnauthenticatedStoredXSS.gif" width="800">
+  <img src= "UnauthenticatedStoredXSS.gif" width="800">
   
   - [x] Steps to recreate: 
   1. Post a comment with the javascript found at this [link](https://wpvulndb.com/vulnerabilities/8186)
