@@ -56,6 +56,7 @@ Time spent: 10 hours spent in total
 List any additional assets, such as scripts or files
 1. [Authenticated Stored Cross-Site Scripting (XSS)](https://wpvulndb.com/vulnerabilities/8111)
 2. [Authenticated Shortcode Tags Cross-Site Scripting (XSS)](https://wpvulndb.com/vulnerabilities/8186)
+3. [Unauthenticated Stored Cross-Site Scripting (XSS)](https://packetstormsecurity.com/files/131644/)
 
 ## Resources
 
