@@ -37,9 +37,10 @@ Time spent: 10 hours spent in total
 3. (Required) Unauthenticated Stored Cross-Site Scripting (XSS)
   - [x] Summary: 
     - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.1
   - [x] GIF Walkthrough: 
+  <img src="UnauthenticatedStoredXSS.gif" width="800">
   - [x] Steps to recreate: 
   1. Post a comment with the javascript <a title='x onmouseover=alert(unescape(/hello%20world/.source))
 style=position:absolute;left:0;top:0;width:5000px;height:5000px
@@ -47,7 +48,7 @@ style=position:absolute;left:0;top:0;width:5000px;height:5000px
  2. Replace the AAAAAA with 64 kb of text
  3. Mouseover the comment
   - [x] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1](https://core.trac.wordpress.org/browser/tags/4.2.1/src/wp-includes/kses.php)
 
 
 ## Assets
@@ -66,6 +67,8 @@ GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 Describe any challenges encountered while doing the work
+
+Downloading everything took ages, and whenever vagrant didn't work, it decided to explode. I also had issues getting wpscan to actually work for a while. It was difficult all of a sudden doing pentesting for real when we weren't taught how to do it in class and we were sort of overwhelmed with information and links.
 
 ## License
 
