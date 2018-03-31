@@ -15,7 +15,7 @@ Time spent: 10 hours spent in total
   <img src="AuthenticatedXSS.gif" width="800">
   
   - [x] Steps to recreate: 
-  1. Write a Javascript like this: <a href="[caption code=">]</a><a title=" onmouseover=alert('XSS')  ">link</a>
+  1. Write a Javascript script like the one found at this [link](https://wpvulndb.com/vulnerabilities/8111)
   2. Create a new post and put it inside of it
   3. Publish and mouseover the link
   - [x] Affected source code:
@@ -30,7 +30,7 @@ Time spent: 10 hours spent in total
   <img src="AuthenticatedShortcodeTagXSS.gif" width="800">
   
   - [x] Steps to recreate: 
-   1. Write TEST!!![caption width="1" caption='<a href="' ">]</a><a href="http://onMouseOver='alert(1)'">Click me</a> in a post
+   1. Write the proof of concept from this [link](https://wpvulndb.com/vulnerabilities/8186)
    2. Publish post and mouseover "Click me"
   - [x] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
