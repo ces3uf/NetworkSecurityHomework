@@ -37,7 +37,7 @@ Time spent: 10 hours spent in total
 
 3. (Required) Unauthenticated Stored Cross-Site Scripting (XSS)
   - [x] Summary: 
-    - Vulnerability types:
+    - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.1
   - [x] GIF Walkthrough: 
