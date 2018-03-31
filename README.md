@@ -12,7 +12,8 @@ Time spent: 10 hours spent in total
     - Tested in version: 4.2
     - Fixed in version:  4.2.3
   - [x] GIF Walkthrough:
-  (AuthenticatedXSS.gif)  
+  <img src="AuthenticatedXSS.gif" width="800">
+  
   - [x] Steps to recreate: 
   1. Write a Javascript like this: <a href="[caption code=">]</a><a title=" onmouseover=alert('XSS')  ">link</a>
   2. Create a new post and put it inside of it
