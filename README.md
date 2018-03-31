@@ -1,20 +1,24 @@
 # Project 7 - WordPress Pentesting
 
-Time spent: **X** hours spent in total
+Time spent: 10 hours spent in total
 
 > Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
 
 ## Pentesting Report
 
-1. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+1. (Required) Authenticated Stored Cross-Site Scripting (XSS)
+  - [x] Summary: 
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version:  4.2.3
+  - [x] GIF Walkthrough: 
+  - [x] Steps to recreate: 
+  1. Write a Javascript like this: <a href="[caption code=">]</a><a title=" onmouseover=alert('XSS')  ">link</a>
+  2. Create a new post and put it inside of it
+  3. Publish and mouseover the link
+  - [x] Affected source code:
+    - [Link 1](https://core.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=33316%40branches%2F4.2&new=33316%40branches%2F4.2&sfp_email=&sfph_mail=p)
+
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
