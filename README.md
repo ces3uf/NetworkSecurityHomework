@@ -48,8 +48,7 @@ Time spent: 10 hours spent in total
   2. Replace the AAAAAA with 64 kb of text
   3. Mouseover the comment
   - [x] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/4.2.1/src/wp-includes/kses.php)
-
+    - [Link 1](https://github.com/WordPress/WordPress)
 
 ## Assets
 
